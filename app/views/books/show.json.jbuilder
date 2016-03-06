@@ -1,1 +1,1 @@
-json.extract! @book, :id, :author, :title, :isbn, :discription, :created_at, :updated_at
+json.extract! @book, :id, :author, :title, :isbn, :discription, :opinion, :created_at, :updated_at

@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+p{
+	color:red;
+	font-size:20px;
+}
+p.akapit{
+	color:green;
+}
+p#akapit1{
+	color:yellow;
+}
+</style>
   <title>WarsztatyRubyonrails</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'default', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'default', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
